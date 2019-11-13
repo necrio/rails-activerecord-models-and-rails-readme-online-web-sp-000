@@ -4,4 +4,7 @@ class Post < ActiveRecord::Base
   
   end 
 
+  class post_summary
+    
+  end 
 end 
