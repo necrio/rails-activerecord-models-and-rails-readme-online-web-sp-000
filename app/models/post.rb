@@ -5,6 +5,6 @@ class Post < ActiveRecord::Base
   end 
 
   class post_summary
-    
+    self.title + " - " + self.description
   end 
 end 
